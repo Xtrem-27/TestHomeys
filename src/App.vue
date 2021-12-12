@@ -1,16 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <base-header />
+  <date />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BaseHeader from './components/BaseHeader.vue'
+import Date from './components/Date.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    BaseHeader,
+    Date
+  },
+  
 }
 </script>
 
@@ -23,4 +26,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
