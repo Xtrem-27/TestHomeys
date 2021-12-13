@@ -1,11 +1,12 @@
 # test1
 
-## Project setup
+Hanna Hugo teste Homeys.io
+## Project setup // utiliser cette commande pour faire fonctionner l'application
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development // utiliser cette comamnde pour lancer localement l'application
 ```
 npm run serve
 ```
