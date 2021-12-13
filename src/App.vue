@@ -1,6 +1,8 @@
 <template>
+  <img src="./assets/logo.png">
   <base-header />
   <date />
+  <graph-connections />
 </template>
 
 <script>
@@ -25,6 +27,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img{
+  width: 95%;
 }
 
 </style>
