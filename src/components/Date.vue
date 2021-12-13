@@ -81,6 +81,15 @@ export default {
           }]
         },
         options: {
+                    title: {
+                      display: true,
+                      text: "Nombre d'appels par jours",
+                      position : 'top',
+                      fontSize:20,
+                    },
+                    legend: {
+                      display: false,
+                    },
               scales: {
                   xAxes: [{
                       gridLines: {
@@ -93,16 +102,6 @@ export default {
                       }   
                   }]
               },
-                  plugins: {
-                    title: {
-                      display: true,
-                      text: 'Chart.js Line Chart - Multi Axis'
-                    },
-                    legend: {
-                      position: 'right',
-                    },
-                  }
-
                     
         }
       })
@@ -193,12 +192,15 @@ export default {
 
             },
             options: {
-                  responsive: true,
-                  plugins: {
+                    title:{
+                      display: true,
+                      text :"Nombre d'appels en fonctions des routes",
+                      fontSize:20,
+                    },
                     legend: {
                       position: 'right',
                     },
-                  },
+                  
                   scales: {
                       xAxes: [{
                           gridLines: {
@@ -344,6 +346,7 @@ input {
 .bar{
   margin-top: 5%;
   margin-bottom: 5%;
+  
 }
 canvas{
   box-shadow: 1px 1px 12px #555;
